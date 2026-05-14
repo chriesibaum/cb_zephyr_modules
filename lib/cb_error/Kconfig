@@ -1,0 +1,7 @@
+# Copyright (c) 2026 Chriesibaum GmbH
+# SPDX-License-Identifier: Apache-2.0
+
+config CB_ERROR
+	bool "Enable cb_zephyr_module error library"
+	help
+	  Enable the error handling library provided by cb_zephyr_module.

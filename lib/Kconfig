@@ -1,0 +1,6 @@
+# Copyright (c) 2026 Chriesibaum GmbH
+# SPDX-License-Identifier: Apache-2.0
+
+rsource "cb_error/Kconfig"
+rsource "cb_info/Kconfig"
+rsource "cb_sys/Kconfig"

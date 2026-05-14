@@ -1,0 +1,15 @@
+# Copyright (c) 2026 Chriesibaum GmbH
+# SPDX-License-Identifier: Apache-2.0
+
+config CB_SYS
+	bool "Enable cb_zephyr_module sys library"
+	help
+	  Enable the sys utility library provided by cb_zephyr_module.
+
+config CB_SYS_LED_HEARTBEAT_BPM
+	int "System LED heartbeat BPM"
+	range 20 240
+	default 60
+	depends on CB_SYS
+	help
+	  Heartbeat cycles per minute for the system PWM LED mode.
